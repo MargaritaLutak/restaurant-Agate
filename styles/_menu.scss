@@ -1,7 +1,6 @@
 .menu {
     font-size: 0.88rem;
     
-
         &__item {
             transition: all .5s;
         }
@@ -19,8 +18,7 @@
             margin:  25px 0px;
             transform: rotate(90deg);
             vertical-align: middle;
-        }
-        
+        }      
 }
 
 @media screen and (max-width:1024px) {
@@ -30,15 +28,12 @@
 }
 
 
-@media screen and(max-width:560px) {
+@media screen and (max-width:560px) {
     .menu {
         &__item:not(:last-child)::after  {
             display: block;
             transform: none;
             margin: 5px auto;
         }
-        
-
-    }
-    
+    }  
 }

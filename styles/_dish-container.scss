@@ -4,14 +4,14 @@
     justify-content:center;
 }
 
-@media screen and(max-width:1024px) {
+@media screen and (max-width:1024px) {
     .dish-container {
         margin:48px 0;  
     }
     
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     .dish-container {
         flex-direction: column;
     }
