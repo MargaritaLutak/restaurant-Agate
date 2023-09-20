@@ -1,0 +1,11 @@
+.contact-button {
+    @include button-style (#fff, #fff);
+
+}
+
+@media screen and(max-width:1024px) {
+    .contact-button {
+        @include smaller-button-style;
+    }
+}
+

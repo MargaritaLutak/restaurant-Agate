@@ -1,0 +1,39 @@
+.cuisine {
+    padding:0 0 100px;
+
+        &__text {
+            @include text-style;
+        }
+}
+
+@media screen and(max-width:1024px) {
+    .cuisine {
+        padding:0 0 80px;
+
+        &__text {
+            font-size:0.88rem;
+        }
+    }
+}
+
+@media screen and(max-width:768px) {
+    .cuisine {
+        padding:0 24px 70px 52px;
+
+        &__text {
+            font-size:0.8rem;
+        }
+    }
+}
+
+@media screen and(max-width:500px) {
+    .cuisine {
+        padding:0 24px 60px 40px;
+
+        &__text {
+            font-size:0.8rem;
+        }
+    }
+}
+
+

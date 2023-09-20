@@ -1,0 +1,16 @@
+.chef-name {
+    @include heading-style;
+}
+
+@media screen and(max-width:1024px) {
+    .chef-name {
+        font-size:1.4rem;
+    } 
+}
+
+@media screen and(max-width:768px) {
+    .chef-name {
+        font-size:1.2rem;
+        margin-bottom: 20px;
+    } 
+}
